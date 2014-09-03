@@ -77,7 +77,8 @@ h1{
 }
   .header .subheader{
     width: 100%;
-    height: 110px;
+    height: 100px;
+		margin-top: 40px;
   }
 		.header .subheader .search{
 			float: right;
