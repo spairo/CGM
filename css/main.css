@@ -1,0 +1,90 @@
+/* Connectionmexicoglobal Website */
+
+html,
+body {
+	background: #fff;
+	font-style: normal;
+  font-family: 'Klavika-Regular';
+}
+
+/* Fonts */
+
+@font-face {
+   font-family: 'Klavika-Regular';
+   src: url('../fonts/Klavika-Regular.otf');
+   src: url('../fonts/Klavika-Regular.otf#iefix') format('embedded-opentype'),
+     url('../fonts/Klavika-Regular.otf') format('woff'),
+     url('../fonts/Klavika-Regular.otf') format('truetype'),
+     url('../fonts/Klavika-Regular.otf#NunitoRegular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+
+/* General */
+
+*{
+  border: 0 none;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
+  text-rendering: optimizelegibility;
+}
+.wrapper{
+  width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+
+.header{
+  width: 100%;
+  min-height: 220px;
+  background: #fff;
+}
+  .header .subheader{
+    width: 100%;
+    height: 110px;
+  }
+  .header .menu{
+    width: 100%;
+    height: 110px;
+  }
+
+/* Slider */
+
+.slider-wrap{
+  width:100%;
+  height: auto;
+}
+  .slider-wrap .slider{
+    background:#ccc;
+    width:100%;
+    height:455px;
+  }
+  .slider-wrap .description{
+    width: 100%;
+    height: 390px;
+    background: #4485F5;
+  }
+
+/* Wrapper */
+
+.container{
+  width: 100%;
+  min-height: 500px;
+}
+
+/* Map */
+
+.wrap-map{
+  background: #4485F5;
+  width: 100%;
+  height:660px;
+}
+
+/* Contact wrap */
+
+.wrap-contact{
+  width: 100%;
+  height: 835px;
+}
