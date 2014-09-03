@@ -51,26 +51,26 @@ body {
   padding: 0;
   text-rendering: optimizelegibility;
 }
+
 .text-center{
 	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 36px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
 }
 
-
+p{
+	line-height: 20px;
+}
 
 /* Headings */
 
 h1,h2,h3,h4,h5{
-
-}
-h1{
-	font-weight:bold;
 	color: #478AF8;
-}
-
-
-.container{
-  width: 1200px;
-  margin: auto;
+	font-weight: bold;
 }
 
 /* Header */
@@ -109,13 +109,41 @@ h1{
 			text-decoration: none;
 			text-transform: uppercase;
 			margin-right: 20px;
-			font-size: 21px;
+			font-size: 24px;
 			color: #76A7F1;
 			letter-spacing: 1px;
 			font-weight: lighter;
 		}
 
+/* Grid  */
 
+.container{
+	width: 1200px;
+	margin: auto;
+}
+.col-1200{
+	width: 1200px;
+	min-height: 400px;
+	overflow: hidden;
+}
+.col-800{
+	width: 799px;
+	min-height: 400px;
+	float: left;
+	overflow: hidden;
+}
+.col-600{
+	width: 600px;
+	min-height: 400px;
+	float: left;
+	overflow: hidden;
+}
+.col-400{
+	width: 399px;
+	min-height: 400px;
+	float: left;
+	overflow: hidden;
+}
 
 /* Slider */
 
@@ -130,7 +158,7 @@ h1{
   }
   .slider-wrap .description{
     width: 100%;
-    height: 390px;
+    min-height: 390px;
     background: #4485F5;
   }
 
@@ -139,7 +167,57 @@ h1{
 .wrap-general{
   width: 100%;
   min-height: 500px;
+	overflow: hidden;
 }
+
+/* Sector */
+
+.article{
+	width: 100%;
+	min-height: 100px;
+	margin: 20px 0 20px 0;
+	overflow: hidden;
+	padding: 5px 0 5px 5px;
+}
+.dash{
+	border-right: 1px dashed #F59231;
+}
+.customers{
+	width: 100%;
+	overflow: hidden;
+}
+	.customers .customer{
+		width: 100%;
+		min-height: 100px;
+		margin: 0 0 30px 50px;
+		overflow: hidden;
+	}
+  .customers .customer:first-child {
+		margin-top: 110px;
+	}
+	.customers .customer ul{
+		color: #478AF8;
+		margin-left: 20px;
+	}
+
+.last-article{
+	width: 90%;
+	min-height: 300px;
+	background: #ccc;
+	margin: 30px 0 30px 0;
+	overflow: hidden;
+}
+
+
+/* Contacto */
+
+
+
+
+
+
+
+
 
 /* Map */
 
