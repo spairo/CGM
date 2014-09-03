@@ -79,15 +79,16 @@ h1{
     width: 100%;
     height: 110px;
   }
-	.header .subheader .search{
-		float: right;
-		width:251px;
-		height: 66px;
-		background: #CACACA;
-	}
+		.header .subheader .search{
+			float: right;
+			width:251px;
+			height: 66px;
+			background: #CACACA;
+		}
   .header .menu{
     width: 100%;
-    height: 110px;
+    height: 80px;
+		background: #ccc;
 		overflow: hidden;
   }
 		.header .menu ul{
