@@ -88,3 +88,11 @@ body {
   width: 100%;
   height: 835px;
 }
+
+/* Footer */
+
+.footer{
+	width: 100%;
+	height: 140px;
+	background: #4485F5;
+}
