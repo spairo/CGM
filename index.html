@@ -18,7 +18,19 @@
     <div class="header">
       <div class="container">
         <div class="subheader">
-          <div class="search"></div>
+          <div class="col-1">
+            <a href="/"><div class="logo"></div></a>
+          </div>
+          <div class="col-3">
+            <ul class="top-menu">
+              <li><a href="#">english</a></li>
+              <li><a href="#">contact</a></li>
+              <li><a href="#">log in</a></li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <div class="search"></div>
+          </div>
         </div>
         <div class="menu">
           <ul>
@@ -33,27 +45,152 @@
     </div>
     <div class="slider-wrap">
       <div class="slider"></div>
+      <div class="circle">
+        <div class="ball-blue"></div>
+      </div>
       <div class="description">
         <div class="container">
-
+          <div class="row">
+            <div class="col-6">
+              <h1>Lorem ipsum doll</h1>
+              <span class="details">{{foo}} | {{details}}</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+              </p>
+              <a href="#"><span class="read">Leer Mas</span></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <div class="wrap-general">
       <div class="container">
-        <h1 class="text-center">Lorem Ipsum Doll</h1>
+        <h1 class="title-center">Quiénes somos?</h1>
+        <div class="row">
+          <h1>Connection Mexico Global</h1>
+          <div class="col-4 dash">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+            <div class="row">
+              <div class="col-4">
+                <ul>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                </ul>
+              </div>
+              <div class="col-2">
+                <img src="img/map_small.png" alt="Mapa small" class="">
+              </div>
+            </div>
+          </div>
+          <div class="col-2">
+            <h1>Servicios</h1>
+            <ul class="lateral-menu">
+              <li><a href="#">social</a></li>
+              <li><a href="#" class="active">social</a></li>
+              <li><a href="#">social</a></li>
+              <li><a href="#">social</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <h1>Ultimos Articulos</h1>
+          <div class="col-3">
+            <div class="last-article">
+              <img src="img/preview.png" class="preview" alt="">
+              <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</h2>
+              <span class="details">{{date}} | {{autor}}</span>
+              <br />
+              <span class="details">{{location}}</span>
+              <div class="overview">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+              </div>
+              <a href="#"><span class="read">leer más</span></a>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="last-article">
+              <img src="img/preview.png" class="preview" alt="">
+              <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</h2>
+              <span class="details">{{date}} | {{autor}}</span>
+              <br />
+              <span class="details">{{location}}</span>
+              <div class="overview">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+              </div>
+              <a href="#"><span class="read">leer más</span></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="wrap-map">
-
-    </div>
-    <div class="wrap-contact">
       <div class="container">
-        <h1>Contacto</h1>
+
+      </div>
+    </div>
+    <div class="circle">
+      <div class="ball-white"></div>
+    </div>
+    <div class="wrap-general">
+      <div class="container">
+        <div class="row">
+            <div class="col-4">
+              <h1>Conctato</h1>
+              <div class="contact">
+                <form>
+                  <label>Nombre:</label>
+                  <input type="text" name="name" class="lg-input" required>
+                  <br />
+
+                  <label>Email:</label>
+                  <input type="text" name="fname" class="lg-input" required>
+
+                  <div clas="row">
+                    <div class="col-3">
+                      <label>Empresa:</label>
+                      <br />
+                      <input type="text" name="fname" class="md-input" required>
+                    </div>
+                    <div class="col-3">
+                      <label>Telefono:</label>
+                      <br />
+                      <input type="text" name="tel" class="md-input" required>
+                    </div>
+                  </div>
+                  <label>Mensaje:</label>
+                  <textarea type="text" name="mjs" required></textarea>
+                  <button class="btn-send">Enviar</button>
+                </form>
+              </div>
+            </div>
+            <div class="col-2">
+              <h2>Connection Mexico</h2>
+              <address>
+                Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+                Visit us at:<br>
+                Example.com<br>
+                Box 564, Disneyland<br>
+                USA
+              </address>
+              <address>
+                +675765 5675 756576.<br>
+                +675765 5675 756576.<br>
+                lol@example.com<br>
+              </address>
+            </div>
+        </div>
       </div>
     </div>
     <div class="footer">
       <div class="container">
+        <span class="copyright">(c)2003-2014 ConnectionMexico Global. Todos los Derechos reservados</span>
+        <span class="tos">Terminos y Condiciones</span>
       </div>
     </div>
 
