@@ -142,6 +142,8 @@ address{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	z-index: 99;
+	position: relative;
 }
 	.circle .ball-blue{
 		width: 50px;
@@ -248,6 +250,68 @@ h1,h2,h3,h4,h5{
 			background: #CACACA;
 		}
 
+	/* Mobile Submenu */
+
+	@media all and (max-width:800px){
+
+		.header .subheader .search{
+			float: right;
+			width:251px;
+			height: 66px;
+			background: #CACACA;
+			display: none;
+		}
+		.header .subheader .top-menu{
+			position: relative;
+			/*
+			top: 16px;
+			right: -120px;
+			*/
+			float: right;
+			color: #989898;
+			display: inline-block;
+			list-style: none;
+			overflow: hidden;
+		}
+
+		.header .menu ul{
+			list-style: none;
+			position: relative;
+			top: 25px;
+			left:100px;
+		}
+		.header .menu ul li a{
+			text-decoration: none;
+			text-transform: uppercase;
+			margin-right: 20px;
+			font-size: 14px;
+			color: #4B8AEB;
+			letter-spacing: 1px;
+			font-weight: lighter;
+		}
+
+	}
+
+	@media all and (max-width:650px){
+		.header .subheader .search{
+			float: right;
+			width: 251px;
+			height: 66px;
+			background: #CACACA;
+			display: none;
+		}
+		.header .menu ul li a{
+			text-decoration: none;
+			text-transform: uppercase;
+			margin-right: 20px;
+			font-size: 18px;
+			color: #4B8AEB;
+			letter-spacing: 1px;
+			font-weight: lighter;
+		}
+	}
+
+
   .header .menu{
     width: 100%;
     height: 80px;
@@ -289,34 +353,15 @@ h1,h2,h3,h4,h5{
 			font-weight: lighter;
 		}
 
-	@media all and (max-width:650px){
-			.header .menu ul li a{
-				text-decoration: none;
-				text-transform: uppercase;
-				margin-right: 0px;
-				font-size: 21px;
-				color: #4B8AEB;
-				letter-spacing: 2px;
-				font-weight: lighter;
-			}
-			.header .menu ul{
-				list-style: none;
-				position: relative;
-				top: 25px;
-				left: 0px;
-			}
-	}
-
 /* Slider */
 
 .slider-wrap{
   width:100%;
   height: auto;
 }
-  .slider-wrap .slider{
-    background:#fff;
+  .slider-wrap .slide{
     width:100%;
-    height:455px;
+		position: relative;
   }
   .slider-wrap .description{
     width: 100%;
@@ -352,24 +397,17 @@ h1,h2,h3,h4,h5{
   position: relative;
   width: 100%;
   overflow: hidden;
-
 }
 .carousel-inner > .item > img {
-    display: block;
+    /*
+		display: block;
     height: auto;
     max-width: 100%;
-		height: 400px;
+		*/
+		width: 100%;
+		height: auto;
+		max-width: 100%;
 }
-/*
-.carousel-inner > .item > img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    height: 500px;
-}
-*/
-
 .carousel-inner > .item {
   position: relative;
   display: none;
